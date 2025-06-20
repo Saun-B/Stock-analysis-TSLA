@@ -6,11 +6,11 @@ Dự án được tổ chức gọn gàng với các thư mục và file chính 
 
 Stock-analysis-TSLA
 ├── data
-│   └── (chứa các file dữ liệu cổ phiếu)
+└── (chứa các file dữ liệu cổ phiếu)
 ├── Images
-│   └── (chứa tất cả các hình ảnh được sử dụng trong website và notebooks)
+└── (chứa tất cả các hình ảnh được sử dụng trong website và notebooks)
 ├── notebooks
-│   └── TSLA_analysis.ipynb  
+└── TSLA_analysis.ipynb  
 ├── requirement.txt                   
 ├── index.html               
 ├── script.js               
