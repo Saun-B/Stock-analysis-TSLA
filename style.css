@@ -142,13 +142,15 @@ ul li {
 }
 
 .hero-main-title {
-    font-size: 48px;
+    font-size: 45px;
     margin-bottom: 15px;
     line-height: 1.2;
     color: #f0f4f7;
     overflow: hidden;
     border-right: none;
     animation: none;
+    white-space: nowrap;
+    word-spacing: -5px;
 }
 
 .hero-main-title span {
