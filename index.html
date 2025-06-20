@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân Tích Cổ Phiếu TSLA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <i class="fas fa-chart-line"></i>
+            <div class="nav-title-group">
+                <span class="nav-main-title">Phân tích cổ phiếu</span>
+                <span class="nav-ticker">TSLA</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#overview" class="nav-link">Tổng quan</a></li>
+                <li><a href="#analysis" class="nav-link">Phân tích chuyên sâu</a></li>
+                <li><a href="#ss" class="nav-link">So sánh trực quan</a></li>
+                <li><a href="#conclusion" class="nav-link">Kết luận</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-main-title">
+                <span style="--i:1">B</span><span style="--i:2">i</span><span style="--i:3">ế</span><span style="--i:4">n</span>
+                <span style="--i:5"> </span> <span style="--i:6">Đ</span><span style="--i:7">ộ</span><span style="--i:8">n</span><span style="--i:9">g</span>
+                <span style="--i:10"> </span> <span style="--i:11">C</span><span style="--i:12">ổ</span>
+                <span style="--i:13"> </span> <span style="--i:14">P</span><span style="--i:15">h</span><span style="--i:16">i</span><span style="--i:17">ế</span><span style="--i:18">u</span>
+                <span style="--i:19"> </span> <span style="--i:20">T</span><span style="--i:21">e</span><span style="--i:22">s</span><span style="--i:23">l</span><span style="--i:24">a</span>
+                <span style="--i:26"> </span> <span style="--i:27">I</span><span style="--i:28">n</span><span style="--i:29">c</span>
+            </h1>
+            <p class="hero-sub-text">Khám phá cái nhìn toàn diện về thị trường và các cổ phiếu tiềm năng.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">TSLA</span>
+                    <span class="stat-label">Cổ phiếu phân tích</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">2024</span>
+                    <span class="stat-label">Thời gian</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">NASDAQ</span>
+                    <span class="stat-label">Sàn giao dịch chứng khoán</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="tesla-slogan-box">
+                <p class="slogan-text">"To accelerate the world's transition to sustainable energy."</p>
+                <span class="slogan-author">- Tesla's Mission</span>
+            </div>
+        </div>
+    </section>
+    
+    <main class="container">
+        <section id="overview" class="section-padding overview-section-frame">
+            <div class="overview-grid-container">  
+                <div class="overview-title-wrapper">
+                    <h2 class="section-main-title">Tổng quan<br>Dự án</h2>
+                </div>
+                <div class="overview-cards-wrapper">
+                    <div class="overview-card">
+                        <div class="card-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Thu thập dữ liệu</h3>
+                        <p>Dữ liệu cổ phiếu lịch sử được lấy từ Yahoo Finance API của công ty Tesla, Inc trong toàn bộ giai đoạn năm 2024.</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Phân tích kỹ thuật</h3>
+                        <p>Phân tích kỹ thuật toàn diện bao gồm đường trung bình cộng SMA (20, 50 ngày), chỉ báo RSI, trung bình giá có trọng số EMA để xác định xu hướng.</p>
+                    </div>
+                    <div class="overview-card">
+                        <div class="card-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Nhận xét xu hướng và khuyến nghị đầu tư</h3>
+                        <p>Cổ phiếu TSLA năm 2024 cho thấy xu hướng phục hồi ổn định sau giai đoạn biến động. Các chỉ báo kỹ thuật ủng hộ đà tăng trung hạn. Đây là thời điểm phù hợp để theo dõi và cân nhắc đầu tư có chọn lọc, đặc biệt với tầm nhìn trung và dài hạn.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section id="analysis" class="section-padding analysis-section-frame">
+            <h1 class="section-main-title centered-title">Phân Tích Chuyên Sâu Cổ Phiếu TSLA</h1>
+
+            <div class="content-card-rounded">
+                <h2 class="subsection-title">Hồ Sơ Công Ty và Lịch Sử Hình Thành</h2>
+                <div class="subsection-content">
+                    <p><strong>Hồ Sơ Công Ty Tesla (TSLA):</strong> Tesla, Inc. là một công ty ô tô và năng lượng sạch của Mỹ có trụ sở tại Austin, Texas. Công ty chuyên thiết kế và sản xuất xe điện, pin lưu trữ năng lượng từ gia đình đến quy mô lưới điện, tấm pin mặt trời và các sản phẩm và dịch vụ liên quan. Được thành lập vào tháng 7 năm 2003 bởi Martin Eberhard và Marc Tarpenning, ban đầu công ty được gọi là Tesla Motors. Elon Musk gia nhập công ty vào năm 2004 với tư cách là chủ tịch hội đồng quản trị và sau đó trở thành CEO. Tesla đã tạo dựng được tên tuổi của mình như một người tiên phong trong ngành công nghiệp xe điện, thách thức các nhà sản xuất ô tô truyền thống và thúc đẩy quá trình chuyển đổi sang năng lượng bền vững.</p>
+                    <p><strong>Thị trường Chứng khoán TSLA:</strong> Cổ phiếu của Tesla được giao dịch trên sàn NASDAQ với mã "TSLA". Đây là một trong những cổ phiếu được theo dõi và giao dịch nhiều nhất trên thị trường chứng khoán toàn cầu, nổi bật với sự biến động mạnh mẽ và thu hút sự quan tâm của cả nhà đầu tư cá nhân lẫn tổ chức. Tesla không chỉ là một công ty ô tô mà còn là một công ty công nghệ và năng lượng, điều này mang lại cho TSLA một vị thế độc đáo và tiềm năng tăng trưởng vượt trội trong dài hạn.</p>
+                </div>
+                <div class="small-card-container">
+                    <div class="small-card">
+                        <h4>Tiên Phong Xe Điện & Công Nghệ Pin</h4>
+                        <p>Tesla không chỉ dẫn đầu trong sản xuất xe điện mà còn liên tục đổi mới về công nghệ pin, tối ưu hóa hiệu suất và giảm chi phí, tạo ra lợi thế cạnh tranh bền vững.</p>
+                    </div>
+                    <div class="small-card">
+                        <h4>Hệ Sinh Thái Năng Lượng Tích Hợp</h4>
+                        <p>Ngoài ô tô, Tesla còn cung cấp giải pháp năng lượng toàn diện bao gồm pin lưu trữ (Powerwall, Megapack) và năng lượng mặt trời, xây dựng một hệ sinh thái bền vững và đa dạng hóa nguồn doanh thu.</p>
+                    </div>
+                    <div class="small-card">
+                        <h4>Thương Hiệu & Tầm Ảnh Hưởng Của Elon Musk</h4>
+                        <p>Dưới sự lãnh đạo của Elon Musk, Tesla đã xây dựng một thương hiệu mạnh mẽ với lượng người hâm mộ trung thành. Tầm ảnh hưởng của Musk, dù đôi khi gây tranh cãi, cũng là một yếu tố quan trọng tác động đến nhận thức công chúng và giá cổ phiếu.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="analysis-spacing"></div>
+
+            <h2 class="subsection-title centered-title">Tại Sao Tesla Có Thể Là Lựa Chọn Hàng Đầu?</h2>
+            <div class="four-card-grid">
+                <div class="small-card">
+                    <h4>Thị Trường Đang Tăng Trưởng Mạnh Mẽ</h4>
+                    <p>Ngành công nghiệp xe điện và năng lượng tái tạo đang trải qua giai đoạn tăng trưởng bùng nổ do lo ngại về biến đổi khí hậu và sự hỗ trợ từ chính phủ. Tesla là người dẫn đầu trong xu hướng này.</p>
+                </div>
+                <div class="small-card">
+                    <h4>Doanh Thu và Khả Năng Sinh Lời Vượt Trội</h4>
+                    <p>Tesla liên tục cho thấy khả năng tăng trưởng doanh thu ấn tượng và đã đạt được lợi nhuận ổn định trong những năm gần đây, chứng minh mô hình kinh doanh hiệu quả.</p>
+                </div>
+                <div class="small-card">
+                    <h4>Tiên Phong Trong Lĩnh Vực AI và Tự Lái</h4>
+                    <p>Tesla không chỉ là nhà sản xuất ô tô mà còn là công ty tiên phong trong lĩnh vực trí tuệ nhân tạo (AI) thông qua công nghệ tự lái (Full Self-Driving - FSD) và các ứng dụng AI khác, mở ra tiềm năng phát triển khổng lồ.</p>
+                </div>
+                <div class="small-card">
+                    <h4>Đổi Mới Liên Tục</h4>
+                    <p>Tesla nổi bật với văn hóa đổi mới không ngừng, từ quy trình sản xuất, công nghệ pin, phần mềm cho đến mô hình kinh doanh, đảm bảo khả năng thích nghi và dẫn đầu thị trường trong dài hạn.</p>
+                </div>
+            </div>
+
+            <div class="analysis-spacing"></div>
+
+            <div class="subsection">
+                <h2 class="subsection-title">Phân Tích Lợi Suất Theo Ngày và Phân Phối Lợi Suất</h2>
+                <p class="subsection-text">Để hiểu rõ hơn về hành vi của cổ phiếu TSLA, việc phân tích lợi suất theo ngày và phân phối lợi suất là rất quan trọng. Lợi suất hàng ngày (Daily Return) cho chúng ta thấy mức độ thay đổi giá của cổ phiếu trong một ngày giao dịch, trong khi phân phối lợi suất (Distribution of Returns) giúp hình dung tần suất xuất hiện của các mức lợi suất khác nhau.</p>
+
+                <div class="chart-card-rounded">
+                    <h3 class="chart-title">Biểu đồ Lợi Suất Theo Ngày</h3>
+                    <img src="Images/LsuatTSLA.png" alt="Biểu đồ lợi suất TSLA" class="chart-img">
+                </div>
+                <p class="image-description">Biểu đồ này minh họa biến động phần trăm giá cổ phiếu TSLA theo từng ngày. Các đỉnh và đáy nhọn cho thấy những ngày có biến động giá mạnh, cả tăng lẫn giảm. Việc phân tích biểu đồ này giúp nhà đầu tư nhận diện các giai đoạn thị trường biến động cao hoặc thấp.</p>
+
+                <div class="chart-spacing"></div>
+
+                <div class="chart-card-rounded">
+                    <h3 class="chart-title">Biểu đồ Phân Phối Lợi Suất</h3>
+                    <img src="Images/Phân_phối_TSLA.png" alt="Biểu đồ phân phối lợi suất TSLA" class="chart-img">
+                </div>
+                <p class="image-description">Biểu đồ phân phối lợi suất thường có hình dạng gần với phân phối chuẩn, với phần lớn các lợi suất tập trung quanh mức 0. Tuy nhiên, cổ phiếu TSLA thường cho thấy "đuôi dày" (fat tails), tức là có nhiều ngày lợi suất cực đoan (tăng hoặc giảm rất mạnh) hơn so với phân phối chuẩn, phản ánh tính biến động cao của cổ phiếu này.</p>
+            </div>
+
+            <div class="analysis-spacing"></div>
+
+            <div class="subsection">
+                <h2 class="subsection-title">Độ Biến Động Theo Tháng</h2>
+                <p class="subsection-text">Độ biến động theo tháng (Monthly Volatility) là một chỉ số quan trọng để đánh giá mức độ rủi ro của cổ phiếu TSLA theo thời gian. Mức độ biến động cao có thể mang lại cơ hội lợi nhuận lớn nhưng cũng đi kèm với rủi ro thua lỗ cao hơn.</p>
+                <div class="chart-card-rounded">
+                    <img src="Images/Bdong.png" alt="Độ biến động theo tháng" class="chart-img">
+                </div>
+                <p class="image-description">Biểu đồ này hiển thị độ biến động hàng tháng của TSLA. Chúng ta có thể quan sát các giai đoạn mà độ biến động tăng vọt, thường trùng với các sự kiện lớn của công ty hoặc thị trường. Theo dõi xu hướng này thường xuyên có thể giúp nhà đầu tư điều chỉnh chiến lược phù hợp với mức độ rủi ro chấp nhận được.</p>
+            </div>
+
+            <div class="analysis-spacing"></div>
+
+            <div class="subsection">
+                <h2 class="subsection-title">Phân Tích Tương Quan Giúp Xác Định Mức Độ Phụ Thuộc Giữa Các Biến</h2>
+                <p class="subsection-text">Phân tích tương quan giúp xác định mức độ phụ thuộc giữa các biến như giá đóng cửa (Close), trung bình động (SMA, EMA) và Chỉ số Sức mạnh Tương đối (RSI).</p>
+                <div class="chart-card-rounded">
+                   <img src="Images/Tquan.png" alt="Ma trận tương quan" class="chart-img">
+                </div>
+                <p class="image-description">Biểu đồ ma trận tương quan (heatmap) cho thấy mối quan hệ giữa các chỉ số kỹ thuật khác nhau của TSLA. Giá trị gần +1 cho thấy mối tương quan thuận mạnh, gần -1 cho thấy mối tương quan nghịch mạnh, và gần 0 cho thấy ít hoặc không có tương quan. Ví dụ, giá đóng cửa thường có mối tương quan rất cao với các đường trung bình động (SMA, EMA), điều này là hợp lý vì chúng đều phản ánh xu hướng giá. Phân tích này giúp nhà đầu tư hiểu được cách các chỉ báo kỹ thuật vận hành và tương tác với nhau, từ đó đưa ra quyết định giao dịch hiệu quả hơn.</p>
+            </div>
+
+            <div class="analysis-spacing"></div>
+
+            <div class="subsection">
+                <h2 class="subsection-title">Hiệu quả hoạt động trong lịch sử</h2>
+                <p class="subsection-text">Lịch sử phát triển của TSLA trên thị trường chứng khoán là một chuỗi các sự kiện quan trọng, phản ánh sự tăng trưởng vượt bậc của công ty cũng như những thách thức mà nó phải đối mặt.</p>
+                <div class="chart-card-rounded">
+                    <img src="Images/price2025.png" alt="Biểu đồ giá đóng cửa cổ phiếu TSLA" class="chart-img">
+                </div>
+                <p class="image-description">Phân tích thị trường chứng khoán của TSLA từ những năm đầu tiên đến 2025 cho thấy một quỹ đạo tăng trưởng đáng kinh ngạc, nhưng cũng đầy biến động:</p>
+                <div class="subsection">
+                    <h2 class="subsection-title">Hiệu quả hoạt động trong lịch sử</h2>
+                    <p class="subsection-text">Lịch sử phát triển của TSLA trên thị trường chứng khoán là một chuỗi các sự kiện quan trọng, phản ánh sự tăng trưởng vượt bậc của công ty cũng như những thách thức mà nó phải đối mặt.</p>
+                    <div class="chart-card-rounded">
+                        <img src="Images/price2025.png" alt="Biểu đồ giá đóng cửa cổ phiếu TSLA" class="chart-img">
+                    </div>
+                    <p class="image-description">Phân tích thị trường chứng khoán của TSLA từ những năm đầu tiên đến 2025 cho thấy một quỹ đạo tăng trưởng đáng kinh ngạc, nhưng cũng đầy biến động:</p>
+
+                    <div class="history-sections-wrapper">
+                        <div class="history-section">
+                            <h3>Giai đoạn Đầu (IPO đến trước 2020):</h3>
+                            <p>Sau khi IPO vào năm 2010, TSLA có mức tăng trưởng ổn định nhưng không quá đột phá. Công ty tập trung vào việc mở rộng sản xuất Model S và Model X, xây dựng cơ sở hạ tầng sạc Supercharger.</p>
+                        </div>
+
+                        <div class="history-section">
+                            <h3>Tác động của COVID-19 (Đầu năm 2020):</h3>
+                            <p>Giống như nhiều cổ phiếu khác, TSLA cũng chứng kiến sự sụt giảm mạnh vào tháng 3 năm 2020 khi đại dịch COVID-19 bùng phát. Tuy nhiên, sau đó, TSLA đã có một đợt phục hồi và tăng trưởng phi mã. Điều này là do:</p>
+                            <ul>
+                                <li><strong>Thích ứng nhanh chóng:</strong> Tesla đã thể hiện khả năng thích ứng nhanh với chuỗi cung ứng bị gián đoạn và tiếp tục sản xuất.</li>
+                                <li><strong>Xu hướng làm việc từ xa và nhu cầu xe cá nhân:</strong> Đại dịch đã thúc đẩy nhu cầu về phương tiện cá nhân và nhận thức về môi trường, tạo động lực cho xe điện.</li>
+                                <li><strong>Chính sách tiền tệ nới lỏng:</strong> Các gói kích thích kinh tế và lãi suất thấp từ các ngân hàng trung ương đã thúc đẩy thị trường chứng khoán nói chung, và các cổ phiếu tăng trưởng như TSLA hưởng lợi lớn.</li>
+                                <li><strong>Phân tách cổ phiếu:</strong> Quyết định phân tách cổ phiếu của Tesla vào tháng 8 năm 2020 đã làm cho cổ phiếu trở nên "dễ tiếp cận" hơn đối với các nhà đầu tư nhỏ lẻ, tạo ra một làn sóng mua mới.</li>
+                            </ul>
+                        </div>
+
+                        <div class="history-section">
+                            <h3>Liên kết với Elon Musk và Các Sự Kiện Khác:</h3>
+                            <p>Giá cổ phiếu TSLA thường xuyên biến động mạnh do các phát ngôn và hành động của CEO Elon Musk:</p>
+
+                            <div class="reason-grid">
+                                <div class="reason-card reason-card-left">
+                                    <div class="reason-content">
+                                        <h4>Tweet trên Twitter/X</h4>
+                                        <p>Các dòng tweet của Musk về sản phẩm mới, công nghệ, hoặc thậm chí là những vấn đề không liên quan đến Tesla, thường có thể gây ra những biến động giá đáng kể. Ví dụ, những tweet về việc đưa Tesla thành công ty tư nhân ("funding secured") hay việc mua lại Twitter/X đã tác động trực tiếp đến giá cổ phiếu.</p>
+                                    </div>
+                                    <div class="reason-image">
+                                        <img src="Images/Twitter.png" alt="Twitter/X Logo"> </div>
+                                </div>
+
+                                <div class="reason-card reason-card-right">
+                                    <div class="reason-image">
+                                        <img src="Images/cybertruck.png" alt="Tesla Cybertruck"> </div>
+                                     <div class="reason-content">
+                                        <h4>Sự kiện sản phẩm mới</h4>
+                                        <p>Các buổi ra mắt sản phẩm như Cybertruck, Tesla Bot, hoặc các cập nhật về công nghệ FSD luôn thu hút sự chú ý và có thể đẩy giá cổ phiếu lên.</p>
+                                    </div>
+                                </div>
+
+                                <div class="reason-card reason-card-left">
+                                    <div class="reason-content">
+                                        <h4>Chính sách của chính phủ</h4>
+                                        <p>Các chính sách liên quan đến môi trường, xe điện hoặc thuế của các chính phủ (ví dụ: chính quyền Biden thúc đẩy xe điện, hay những chính sách tiềm năng dưới thời Trump nếu ông trở lại) có thể có tác động lớn đến triển vọng kinh doanh của Tesla và do đó là giá cổ phiếu.</p>
+                                    </div>
+                                    <div class="reason-image">
+                                        <img src="Images/csach.png" alt="Government Policy"> </div>
+                                </div>
+
+                                <div class="reason-card reason-card-right">
+                                    <div class="reason-image">
+                                        <img src="Images/thitruong.png" alt="Market Volatility"> </div>
+                                    <div class="reason-content">
+                                        <h4>Biến động thị trường chung</h4>
+                                        <p>Là một cổ phiếu tăng trưởng và có vốn hóa lớn, TSLA cũng bị ảnh hưởng bởi tâm lý thị trường chung, biến động lãi suất và các yếu tố kinh tế vĩ mô.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="image-description">Việc phân tích kỹ lưỡng các sự kiện lịch sử và mối liên hệ của chúng với biến động giá TSLA giúp nhà đầu tư đưa ra quyết định sáng suốt hơn.</p>
+                </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section id="ss" class="section-padding comparison-section-frame">
+            <h1 class="section-main-title centered-title">So Sánh Trực Quan</h1>
+            <p class="subsection-text centered-text">Để đánh giá hiệu suất tương đối của cổ phiếu TSLA, chúng ta sẽ tiến hành so sánh với hai công ty công nghệ khác có hoạt động và ảnh hưởng đáng kể trên thị trường:</p>
+            <div class="comparison-intro-cards">
+                <div class="intro-card">
+                    <h3>NIO (NIO Inc.)</h3>
+                    <p>Là một nhà sản xuất xe điện thông minh hàng đầu tại Trung Quốc. NIO nổi tiếng với các mẫu xe điện cao cấp, công nghệ đổi pin tiên tiến (Battery Swap), và hệ sinh thái dịch vụ người dùng mạnh mẽ. Việc so sánh với NIO giúp chúng ta có cái nhìn về hiệu suất của TSLA trong bối cảnh cạnh tranh xe điện toàn cầu, đặc biệt là từ thị trường Trung Quốc.</p>
+                </div>
+                <div class="intro-card">
+                    <h3>NVDA (NVIDIA Corporation)</h3>
+                    <p>Là công ty hàng đầu thế giới về thiết kế bộ xử lý đồ họa (GPU) và chipsets cho máy tính, điện thoại di động và các hệ thống giải trí điện tử. NVIDIA cũng là một ông lớn trong lĩnh vực trí tuệ nhân tạo (AI), điện toán hiệu năng cao và phát triển các nền tảng cho xe tự lái. So sánh TSLA với NVDA giúp đánh giá vị thế của Tesla không chỉ như một công ty ô tô mà còn là một công ty công nghệ, đặc biệt trong lĩnh vực AI và tự lái.</p>
+                </div>
+            </div>
+
+            <div class="comparison-spacing"></div>
+
+            <div class="subsection">
+                <h2 class="subsection-sub-title">So Sánh Hiệu Suất Cổ Phiếu (Giá Đóng Cửa, Khối Lượng và Lợi Suất Tích Lũy)</h2>
+                <div class="chart-card-rounded">
+                    <img src="Images/chung.png" alt="Biểu đồ so sánh cổ phiếu" class="chart-img">
+                </div>
+                <div class="image-description-group">
+                    <p class="image-description">Biểu đồ trên cung cấp cái nhìn toàn diện về hiệu suất của TSLA so với NIO và NVDA qua ba khía cạnh chính: giá đóng cửa, khối lượng giao dịch và hiệu suất tích lũy.</p>
+                    <p class="image-description">
+                        <strong>Về Giá đóng cửa:</strong> Biểu đồ đầu tiên cho thấy xu hướng giá của ba cổ phiếu. Chúng ta có thể thấy rõ ràng NVIDIA (NVDA) đã trải qua một giai đoạn tăng trưởng vượt trội và liên tục duy trì ở mức giá cao, phản ánh sự bùng nổ mạnh mẽ của ngành công nghiệp AI và bán dẫn. TSLA cũng thể hiện sự tăng trưởng đáng kể nhưng có thể có các giai đoạn biến động mạnh hơn so với NVDA. NIO, mặc dù là một đối thủ trong ngành xe điện, lại có xu hướng giá thấp hơn và có thể biến động mạnh hơn do quy mô thị trường và những thách thức riêng ở thị trường Trung Quốc.
+                    </p>
+                    <p class="image-description">
+                        <strong>Về Khối lượng giao dịch:</strong> Biểu đồ thứ hai minh họa khối lượng giao dịch của từng cổ phiếu. Khối lượng giao dịch cao thường đi kèm với các sự kiện quan trọng hoặc tin tức lớn, cho thấy sự quan tâm của thị trường đối với cổ phiếu đó. NVIDIA thường xuyên có khối lượng giao dịch cao, đặc biệt trong các đợt tăng giá mạnh. Tesla cũng có khối lượng giao dịch lớn, phản ánh tính thanh khoản và sự chú ý cao từ các nhà đầu tư. NIO có thể có khối lượng giao dịch biến động tùy thuộc vào tin tức thị trường Trung Quốc và các báo cáo tài chính của công ty.
+                    </p>
+                    <p class="image-description">
+                        <strong>Về Hiệu suất tích lũy:</strong> Biểu đồ cuối cùng, hiệu suất tích lũy, là chỉ số quan trọng nhất để đánh giá khả năng sinh lời của mỗi cổ phiếu nếu được giữ trong một khoảng thời gian nhất định. Trong giai đoạn được phân tích, NVDA dường như có hiệu suất tích lũy vượt trội nhất, cho thấy khả năng sinh lời ấn tượng cho các nhà đầu tư. TSLA cũng mang lại lợi nhuận đáng kể nhưng có thể không bằng NVDA. NIO, mặc dù có những thời điểm tăng trưởng, nhưng nhìn chung hiệu suất tích lũy có thể khiêm tốn hơn so với hai gã khổng lồ còn lại. Phân tích này giúp nhà đầu tư thấy được cổ phiếu nào đang dẫn đầu xu hướng thị trường và cổ phiếu nào tiềm ẩn rủi ro hoặc cơ hội hơn trong dài hạn.
+                    </p>
+                </div>
+            </div>
+
+            <div class="comparison-spacing"></div>
+
+            <div class="subsection">
+                <h2 class="subsection-sub-title">Phân Tích Tương Quan (Giữa TSLA, NIO, NVDA)</h2>
+                <div class="chart-card-rounded">
+                    <img src="Images/Tương_quan_chung.png" alt="Tương quan lợi suất hàng ngày" class="chart-img">
+                </div>
+                <div class="image-description-group">
+                    <p class="image-description">Biểu đồ ma trận tương quan trên (heatmap) cho chúng ta thấy mức độ phụ thuộc trong biến động giá giữa TSLA, NIO và NVDA.</p>
+                    <p class="image-description">
+                        Mỗi ô trong biểu đồ thể hiện hệ số tương quan giữa hai mã cổ phiếu. Hệ số tương quan càng gần 1 (màu nóng) thì hai cổ phiếu càng có xu hướng biến động cùng chiều mạnh mẽ. Hệ số càng gần -1 (màu lạnh) thì càng có xu hướng biến động ngược chiều. Hệ số gần 0 thì ít có mối liên hệ.
+                    </p>
+                    <p class="image-description">
+                        <strong>Phân tích biểu đồ:</strong>
+                        <ul>
+                            <li><strong>TSLA và NIO:</strong> Giá trị tương quan giữa TSLA và NIO là 0.25. Đây là một mức tương quan dương yếu. Điều này có nghĩa là khi lợi suất của TSLA tăng, lợi suất của NIO cũng có xu hướng tăng theo, nhưng mối liên hệ này không quá mạnh mẽ. Cả hai đều là công ty xe điện, nên một mức độ tương quan nhất định là điều dễ hiểu, nhưng sự khác biệt về thị trường (Mỹ so với Trung Quốc) và chiến lược có thể làm giảm mức độ tương quan này.</li>
+                            <li><strong>TSLA và NVDA:</strong> Giá trị tương quan giữa TSLA và NVDA là 0.21. Tương tự như cặp TSLA-NIO, đây cũng là một mức tương quan dương yếu. Mặc dù cả hai đều là các công ty công nghệ lớn và có tính biến động cao, hoạt động kinh doanh cốt lõi của họ khá khác biệt (xe điện và năng lượng so với chip bán dẫn và AI), dẫn đến mối tương quan không quá chặt chẽ trong lợi suất hàng ngày.</li>
+                            <li><strong>NIO và NVDA:</strong> Giá trị tương quan giữa NIO và NVDA là 0.04. Đây là một mức tương quan rất yếu, gần như bằng 0. Điều này cho thấy lợi suất hàng ngày của NIO và NVDA gần như không có mối quan hệ tuyến tính với nhau. Khi lợi suất của một cổ phiếu tăng hay giảm, nó không ảnh hưởng đáng kể đến hướng đi của cổ phiếu kia. Sự khác biệt rõ rệt về ngành nghề và thị trường hoạt động giải thích cho mức tương quan thấp này.</li>
+                        </ul>
+                    </p>
+                    <p class="image-description">
+                        <strong>Kết luận:</strong>
+                        Nhìn chung, biểu đồ cho thấy cả ba cặp cổ phiếu đều có mức tương quan dương, nhưng ở mức yếu. Điều này ngụ ý rằng mặc dù có thể có những xu hướng chung trên thị trường ảnh hưởng đến tất cả, nhưng mỗi cổ phiếu vẫn có những yếu tố nội tại và động lực thị trường riêng biệt chi phối lợi suất hàng ngày của chúng. Đặc biệt, NIO và NVDA gần như không có mối liên hệ rõ ràng về lợi suất hàng ngày.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section id="conclusion" class="section-padding conclusion-section-frame">
+            <h1 class="section-main-title centered-title">Kết Luận và Khuyến Nghị</h1>
+
+            <div class="content-card-rounded">
+                <h2 class="subsection-sub-title">Tóm Tắt Nội Dung</h2>
+                <p>Bài phân tích chuyên sâu đã cung cấp cái nhìn đa chiều về cổ phiếu TSLA, bao gồm hồ sơ công ty và lịch sử hình thành, những lý do Tesla có thể là lựa chọn đầu tư hàng đầu, phân tích lợi suất, biến động, và mối tương quan với các chỉ báo kỹ thuật.</p>
+                <p>Chúng ta cũng đã tiến hành so sánh trực quan hiệu suất của TSLA với hai công ty công nghệ khác là NIO và NVDA thông qua các biểu đồ giá đóng cửa, khối lượng giao dịch, hiệu suất tích lũy và phân phối lợi nhuận hàng ngày. Các phân tích này đã làm nổi bật vị thế dẫn đầu của Tesla trong ngành xe điện, tiềm năng trong AI, và đồng thời chỉ ra những đặc điểm biến động của cổ phiếu so với các đối thủ và đồng nghiệp trong lĩnh vực công nghệ.</p>
+            </div>
+
+            <div class="conclusion-spacing"></div>
+
+            <div class="content-card-rounded">
+                <h2 class="subsection-sub-title bold-text">Bối Cảnh Thị Trường Hiện Nay và Triển Vọng</h2>
+                <p>Thị trường xe điện và năng lượng tái tạo đang ở trong giai đoạn tăng trưởng bùng nổ, được thúc đẩy bởi các chính sách hỗ trợ từ chính phủ trên toàn cầu, nhận thức về biến đổi khí hậu ngày càng cao, và những tiến bộ vượt bậc trong công nghệ pin và xe tự lái. Tesla, với vị thế tiên phong và khả năng đổi mới không ngừng, đang ở một vị trí thuận lợi để hưởng lợi từ xu hướng này.</p>
+                <p>Triển vọng của Tesla không chỉ giới hạn ở việc sản xuất ô tô. Công ty đang mở rộng mạnh mẽ sang các lĩnh vực năng lượng (pin lưu trữ, năng lượng mặt trời) và trí tuệ nhân tạo (robotaxi, Tesla Bot, chip AI). Sự tích hợp của các mảng kinh doanh này tạo ra một hệ sinh thái mạnh mẽ, mang lại tiềm năng tăng trưởng doanh thu và lợi nhuận đáng kể trong dài hạn. Tuy nhiên, Tesla cũng đối mặt với sự cạnh tranh ngày càng gay gắt từ các nhà sản xuất ô tô truyền thống và các công ty xe điện mới nổi, đặc biệt là ở thị trường Trung Quốc. Các yếu tố vĩ mô như lãi suất, lạm phát và chuỗi cung ứng toàn cầu cũng sẽ tiếp tục ảnh hưởng đến hiệu suất của cổ phiếu.</p>
+            </div>
+
+            <div class="conclusion-spacing"></div>
+
+            <div class="content-card-rounded recommendation-box">
+                <div class="recommendation-header">
+                    <h2 class="subsection-sub-title">Khuyến Nghị Đầu Tư</h2>
+                    <div class="buy-action">
+                        <span class="buy-label">Độ uy tín cao</span>
+                        <button class="buy-button">MUA NGAY</button>
+                    </div>
+                </div>
+                <div class="recommendation-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Giá Hiện Tại Ước Tính:</span>
+                        <span class="detail-value">$280 - $320 USD</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Tiềm Năng Tăng Trưởng:</span>
+                        <span class="detail-value">Cao</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Khung Thời Gian:</span>
+                        <span class="detail-value">Trung và Dài Hạn</span>
+                    </div>
+                </div>
+                <p class="recommendation-reason">
+                    <strong>Lý do khuyến nghị mua:</strong>
+                    <br>
+                    1.  <strong>Vị thế dẫn đầu ngành:</strong> Tesla vẫn là nhà tiên phong không thể phủ nhận trong thị trường xe điện toàn cầu và đang liên tục định hình lại ngành công nghiệp ô tô.
+                    <br>
+                    2.  <strong>Đổi mới công nghệ liên tục:</strong> Công ty không ngừng đầu tư vào nghiên cứu và phát triển AI, công nghệ tự lái (FSD), công nghệ pin và robot, mở ra những nguồn doanh thu mới và duy trì lợi thế cạnh tranh.
+                    <br>
+                    3.  <strong>Hệ sinh thái đa dạng:</strong> Ngoài xe điện, các mảng năng lượng và AI của Tesla tạo nên một hệ sinh thái tích hợp, giúp công ty đa dạng hóa rủi ro và tăng cường khả năng sinh lời.
+                    <br>
+                    4.  <strong>Thương hiệu mạnh và tầm ảnh hưởng của CEO:</strong> Mặc dù đôi khi gây tranh cãi, thương hiệu Tesla và tầm ảnh hưởng của Elon Musk vẫn là động lực mạnh mẽ thu hút sự chú ý của thị trường và tạo ra giá trị độc đáo.
+                    <br>
+                    Tuy nhiên, nhà đầu tư cần lưu ý đến tính biến động cao của cổ phiếu và các rủi ro từ cạnh tranh, các quy định chính phủ và tâm lý thị trường chung. Nên cân nhắc kỹ lưỡng và quản lý rủi ro phù hợp.
+                </p>
+            </div>
+
+            <div class="conclusion-spacing"></div>
+
+            <div class="content-card-rounded">
+                <h2 class="subsection-sub-title">Lời Kết</h2>
+                <p>Tổng kết lại, bài phân tích này đã phác họa một bức tranh toàn diện về cổ phiếu TSLA, từ nền tảng công ty vững chắc và lịch sử phát triển ấn tượng cho đến những phân tích kỹ thuật chuyên sâu về hiệu suất, biến động và tương quan. Tesla không chỉ là một nhà sản xuất ô tô; đó là một tập đoàn công nghệ tiên phong đang định hình tương lai của giao thông vận tải và năng lượng.</p>
+                <p>Quan điểm của tôi về TSLA là một cổ phiếu có tiềm năng tăng trưởng đáng kể trong dài hạn, được hỗ trợ bởi khả năng đổi mới không ngừng, vị thế dẫn đầu thị trường và sự mở rộng sang các lĩnh vực công nghệ cao như AI. Mặc dù cổ phiếu này có thể đi kèm với mức độ biến động cao và chịu ảnh hưởng lớn từ các yếu tố bên ngoài (bao gồm cả các phát ngôn của CEO Elon Musk), nhưng những rủi ro này cũng đi kèm với cơ hội lợi nhuận hấp dẫn cho các nhà đầu tư sẵn sàng chấp nhận.</p>
+                <p>Tôi khuyến khích mọi người, đặc biệt là những nhà đầu tư cá nhân, nên tự mình tiến hành nghiên cứu kỹ lưỡng (do your own due diligence) và tham khảo ý kiến của các chuyên gia tài chính trước khi đưa ra bất kỳ quyết định đầu tư nào. Thị trường chứng khoán luôn tiềm ẩn rủi ro, và việc hiểu rõ bản chất của tài sản đầu tư là chìa khóa để đạt được thành công bền vững.</p>
+                <p>Hãy theo dõi sát sao những diễn biến mới nhất của Tesla, các đột phá công nghệ, và các yếu tố kinh tế vĩ mô để đưa ra những quyết định đầu tư thông minh và kịp thời!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>Báo cáo<br>Phân tích</h4>
+                <ul>
+                    <li><a href="#">Phân tích biến động<br>cổ phiếu TSLA</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Phương pháp</h4>
+                <ul>
+                    <li><a href="#">Phân tích cơ bản</a></li>
+                    <li><a href="#">Phân tích kỹ thuật</a></li>
+                    <li><a href="#">So sánh trực quan</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Nguồn dữ liệu</h4>
+                <ul>
+                    <li><a href="https://finance.yahoo.com/" target="_blank">API Tài chính Yahoo</a></li>
+                    <li><a href="#">Báo cáo nghiên cứu thị trường</a></li>
+                    <li><a href="https://x.com/Tesla" target="_blank">Tesla (@Tesla) · X</a></li>
+                    <li><a href="https://www.quora.com/Do-you-think-Elon-Musks-tweets-on-X-are-affecting-Tesla-sales-particularly-in-the-US" target="_blank">Article on the influence of elon musk</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Tuyên bố<br>Miễn trừ trách nhiệm</h4>
+                <p>Phân tích này chỉ nhằm mục đích giáo dục và không nên được coi là lời khuyên đầu tư. Vui lòng tham khảo ý kiến ​​của các chuyên gia tài chính trước khi đưa ra quyết định đầu tư.</p>
+            </div>
+        </div>
+        <div class="disclaimer">
+            <p>&copy; 2025 Dự án Phân Tích Cổ Phiếu. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
