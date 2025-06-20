@@ -5,11 +5,11 @@ Dự án này tập trung vào phân tích biến động cổ phiếu Tesla, In
 Dự án được tổ chức gọn gàng với các thư mục và file chính như sau:
 
 Stock-analysis-TSLA
-├── data/
+├── data
 │   └── (chứa các file dữ liệu cổ phiếu)
-├── Images/
+├── Images
 │   └── (chứa tất cả các hình ảnh được sử dụng trong website và notebooks)
-├── notebooks/
+├── notebooks
 │   └── TSLA_analysis.ipynb  
 ├── requirement.txt                   
 ├── index.html               
