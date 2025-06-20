@@ -6,20 +6,20 @@ Dự án được tổ chức gọn gàng với các thư mục và file chính 
 
 Stock-analysis-TSLA
 ├── data
-└── (chứa các file dữ liệu cổ phiếu)
+|   └── (chứa các file dữ liệu cổ phiếu)
 ├── Images
-└── (chứa tất cả các hình ảnh được sử dụng trong website và notebooks)
+|   └── (chứa tất cả các hình ảnh được sử dụng trong website và notebooks)
 ├── notebooks
-└── TSLA_analysis.ipynb  
+|   └── TSLA_analysis.ipynb  
 ├── requirement.txt                   
 ├── index.html               
 ├── script.js               
 ├── style.css                
 └── README.md
 
-#Hướng dẫn sử dụng
+# Hướng dẫn sử dụng
 Để khám phá và chạy phân tích, bạn cần làm theo các bước sau:
 
-1.Cài đặt môi trường Python
-2.Cài đặt các thư viện cần thiết
-3.Mở và chạy Notebook Jupyter:
+1. Cài đặt môi trường Python
+2. Cài đặt các thư viện cần thiết
+3. Mở và chạy Notebook Jupyter:
