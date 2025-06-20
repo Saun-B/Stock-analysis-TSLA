@@ -1,7 +1,7 @@
-Phân tích chứng khoán bằng python
+# Phân tích chứng khoán bằng python
 Dự án này tập trung vào phân tích biến động cổ phiếu Tesla, Inc (TSLA) sử dụng ngôn ngữ lập trình Python. Mục tiêu là cung cấp cái nhìn tổng quan và sâu sắc về hiệu suất cổ phiếu của Tesla thông qua dữ liệu lịch sử và các phương pháp phân tích kỹ thuật cơ bản.
 
-Cấu trúc Project
+# Cấu trúc Project
 Dự án được tổ chức gọn gàng với các thư mục và file chính như sau:
 
 Stock-analysis-TSLA
@@ -17,7 +17,7 @@ Stock-analysis-TSLA
 ├── style.css                
 └── README.md
 
-Hướng dẫn sử dụng
+#Hướng dẫn sử dụng
 Để khám phá và chạy phân tích, bạn cần làm theo các bước sau:
 
 1.Cài đặt môi trường Python
